@@ -1,0 +1,115 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt6b6pjjv7kpk"]
+
+[ext_resource type="Script" uid="uid://b6qsynsxaseh7" path="res://scenes/ecran_pause.gd" id="1_20u23"]
+[ext_resource type="Texture2D" uid="uid://dvws16qbvqg2d" path="res://images_autres/titre.png" id="2_fdjyj"]
+
+[node name="ecran_pause" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_20u23")
+
+[node name="Fond" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(800, 600)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(800, 600)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+[node name="Titre" type="TextureRect" parent="VBoxContainer"]
+modulate = Color(0.99607843, 0.95686275, 0.95686275, 1)
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("2_fdjyj")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Reglages" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+
+[node name="Musique" type="Button" parent="VBoxContainer/HBoxContainer/Reglages"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"BoutonChoix"
+text = "Couper la musique"
+
+[node name="Bruitage" type="Button" parent="VBoxContainer/HBoxContainer/Reglages"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"BoutonChoix"
+text = "Couper les bruitages"
+
+[node name="BoutonsCentre" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+
+[node name="Continuer" type="Button" parent="VBoxContainer/HBoxContainer/BoutonsCentre"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 0
+theme_type_variation = &"BoutonChoix"
+text = "Reprendre"
+
+[node name="NouvellePartie" type="Button" parent="VBoxContainer/HBoxContainer/BoutonsCentre"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"BoutonChoix"
+text = "Nouvelle histoire"
+
+[node name="Credits" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+
+[node name="Details" type="Label" parent="VBoxContainer/HBoxContainer/Credits"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"BullesPerso"
+text = "Fait pour la Partim 500-10
+Thème: Dédale ... détourné
+Les belles répliques sont
+de Dalida et ses paroliers.
+Les autres répliques...
+Musique: JS Bach BWV997
+mutopiaproject.org - CC0
+Récit, sprites, code: Seb46
+Seb46@2025 - CC BY-NC"
+
+[node name="AfficherDetails" type="Button" parent="VBoxContainer/HBoxContainer/Credits"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"BoutonChoix"
+text = "Crédits"
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Reglages/Musique" to="." method="_on_musique_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Reglages/Bruitage" to="." method="_on_bruitage_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/BoutonsCentre/Continuer" to="." method="_on_continuer_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/BoutonsCentre/NouvellePartie" to="." method="_on_nouvelle_partie_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Credits/AfficherDetails" to="." method="_on_afficher_details_pressed"]

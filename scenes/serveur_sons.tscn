@@ -1,0 +1,37 @@
+[gd_scene load_steps=7 format=3 uid="uid://fx55rnd2f0j3"]
+
+[ext_resource type="Script" uid="uid://cga8ghogl1bcr" path="res://scenes/serveur_sons.gd" id="1_dof1l"]
+[ext_resource type="AudioStream" uid="uid://bandp8seq01df" path="res://sons/pong.mp3" id="2_diitp"]
+[ext_resource type="AudioStream" uid="uid://d315wo0j28ey8" path="res://sons/page.mp3" id="2_dof1l"]
+[ext_resource type="AudioStream" uid="uid://dp2i2um7bmep8" path="res://sons/bulle.mp3" id="3_diitp"]
+[ext_resource type="AudioStream" uid="uid://cxys4a6gf74p5" path="res://sons/Son_grognement.mp3" id="5_nufeb"]
+[ext_resource type="AudioStream" uid="uid://cg5va00m2iqhl" path="res://sons/bwv997-03sarabande.mp3" id="5_r8wpi"]
+
+[node name="ServeurSons" type="Node"]
+script = ExtResource("1_dof1l")
+
+[node name="Bruitages" type="Node" parent="."]
+unique_name_in_owner = true
+
+[node name="Vide" type="AudioStreamPlayer" parent="Bruitages"]
+
+[node name="Valider" type="AudioStreamPlayer" parent="Bruitages"]
+stream = ExtResource("2_diitp")
+
+[node name="Echec" type="AudioStreamPlayer" parent="Bruitages"]
+stream = ExtResource("3_diitp")
+
+[node name="Page" type="AudioStreamPlayer" parent="Bruitages"]
+stream = ExtResource("2_dof1l")
+
+[node name="Grognement" type="AudioStreamPlayer" parent="Bruitages"]
+stream = ExtResource("5_nufeb")
+
+[node name="Musiques" type="Node" parent="."]
+unique_name_in_owner = true
+
+[node name="Musique" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("5_r8wpi")
+volume_db = -10.0
+autoplay = true

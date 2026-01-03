@@ -1,0 +1,90 @@
+[gd_resource type="Theme" load_steps=11 format=3 uid="uid://cyg0hwdjr04or"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nm668"]
+content_margin_left = 10.0
+content_margin_top = 20.0
+content_margin_right = 10.0
+content_margin_bottom = 20.0
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.99607843, 0.95686275, 0.95686275, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s42vh"]
+content_margin_left = 10.0
+content_margin_top = 20.0
+content_margin_right = 10.0
+content_margin_bottom = 20.0
+bg_color = Color(0.15127608, 0.15127608, 0.15127605, 1)
+border_color = Color(0.99607843, 0.95686275, 0.95686275, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bxmid"]
+content_margin_left = 10.0
+content_margin_top = 20.0
+content_margin_right = 10.0
+content_margin_bottom = 20.0
+bg_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b3as7"]
+content_margin_left = 10.0
+content_margin_top = 20.0
+content_margin_right = 10.0
+content_margin_bottom = 20.0
+bg_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 4
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_48spl"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dg1ae"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bxmid"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nm668"]
+content_margin_left = 700.0
+content_margin_top = 0.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_if7f0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cd21o"]
+
+[resource]
+BoutonChoix/base_type = &"Button"
+BoutonChoix/colors/font_color = Color(0.99607843, 0.95686275, 0.95686275, 1)
+BoutonChoix/font_sizes/font_size = 20
+BoutonChoix/styles/focus = SubResource("StyleBoxFlat_nm668")
+BoutonChoix/styles/hover = SubResource("StyleBoxFlat_s42vh")
+BoutonChoix/styles/normal = SubResource("StyleBoxFlat_bxmid")
+BoutonChoix/styles/pressed = SubResource("StyleBoxFlat_b3as7")
+BoutonChoixSuite/base_type = &"Button"
+BoutonChoixSuite/colors/font_color = Color(0.99607843, 0.95686275, 0.95686275, 1)
+BoutonChoixSuite/font_sizes/font_size = 20
+BoutonChoixSuite/styles/focus = SubResource("StyleBoxEmpty_48spl")
+BoutonChoixSuite/styles/hover = SubResource("StyleBoxEmpty_dg1ae")
+BoutonChoixSuite/styles/normal = SubResource("StyleBoxEmpty_bxmid")
+BoutonChoixSuite/styles/pressed = SubResource("StyleBoxEmpty_nm668")
+BullesPerso/base_type = &"Label"
+BullesPerso/colors/font_color = Color(0.99607843, 0.95686275, 0.95686275, 1)
+BullesPerso/font_sizes/font_size = 20
+BullesPerso/styles/focus = SubResource("StyleBoxEmpty_if7f0")
+BullesPerso/styles/normal = SubResource("StyleBoxEmpty_cd21o")

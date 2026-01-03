@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3upcc7rlvtfc"]
+
+[ext_resource type="PackedScene" uid="uid://cgho2htmfai12" path="res://scenes/ecran_jeu.tscn" id="1_b6da0"]
+[ext_resource type="Script" uid="uid://c7p4m7b64nh8n" path="res://scenes/jeu.gd" id="1_fgnw0"]
+[ext_resource type="PackedScene" uid="uid://bt6b6pjjv7kpk" path="res://scenes/ecran_pause.tscn" id="3_g5o8c"]
+[ext_resource type="PackedScene" uid="uid://fx55rnd2f0j3" path="res://scenes/serveur_sons.tscn" id="4_g5o8c"]
+
+[node name="Jeu" type="Node"]
+script = ExtResource("1_fgnw0")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="EcranJeu" parent="." instance=ExtResource("1_b6da0")]
+unique_name_in_owner = true
+
+[node name="EcranPause" parent="." instance=ExtResource("3_g5o8c")]
+unique_name_in_owner = true
+process_mode = 2
+visible = false
+
+[node name="ServeurSons" parent="." instance=ExtResource("4_g5o8c")]
+unique_name_in_owner = true
+process_mode = 3

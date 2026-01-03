@@ -1,0 +1,736 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=71 format=3 uid="uid://cvw3vk7lr55db"]
+
+[ext_resource type="Script" uid="uid://bimc271r8deas" path="res://ressources_maison/ligne.gd" id="1_wvmpq"]
+[ext_resource type="Script" uid="uid://d1am6ynsb3nqp" path="res://ressources_maison/dialogue.gd" id="2_pe7b2"]
+
+[sub_resource type="Resource" id="Resource_wvmpq"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+regard = 3
+bouche = 2
+texte_replique = "Alors Dédé,
+dernière semaine
+avant la retraite,
+heureux ?"
+ref_choix1 = 1
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_pe7b2"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+regard = 3
+bouche = 1
+texte_replique = "Eh bien,
+soudain, cette mine
+triste et ces joues
+blêmes…
+Qu’est-ce que j’ai
+dit, Dédé?"
+ref_choix1 = 2
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_s8e6h"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 3
+regard = 1
+bouche = 1
+texte_replique = "Daleks !
+Dé, des daleks !"
+ref_choix1 = 3
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_x1vdh"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 3
+regard = 6
+bouche = 1
+texte_replique = "Dé, des D…
+Alerte des daleks ! "
+ref_choix1 = 4
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_fq7sx"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 3
+regard = 2
+bouche = 4
+texte_replique = "Alex, sonne
+l’alerte !"
+ref_choix1 = 5
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_3hv4c"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+regard = 4
+bouche = 2
+texte_replique = "Ah, ah. Très drôle."
+ref_choix1 = 6
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_4drik"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+regard = 6
+bouche = 1
+texte_replique = "Oh, m..., des Daleks !
+Ici, à Montmartre ?"
+ref_choix1 = 7
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_7bhg8"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 3
+regard = 5
+bouche = 1
+texte_replique = "Sous le présentoir,
+vite!"
+ref_choix1 = 8
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_glgtf"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+regard = 3
+bouche = 4
+texte_replique = "Sous le présentoir ? 
+Pas de place pour se
+cacher là-dessous !"
+ref_choix1 = 9
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_1d1bo"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 3
+regard = 5
+bouche = 1
+texte_replique = "Presse le bouton
+sous le présentoir !"
+texte_choix1 = "Sonner l’alerte et aller se cacher dans la maison."
+ref_choix1 = 10
+texte_choix2 = "Faire une déduction logique."
+ref_choix2 = 24
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_wvyob"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+regard = 4
+bouche = 3
+texte_replique = "Je ne rêve plus, je
+fume plus, je…
+Et, p…, je vois des 
+Daleks."
+ref_choix1 = 11
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_5pthd"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+regard = 5
+bouche = 4
+texte_replique = "Oh oui, je sonne
+l’alerte."
+ref_choix1 = 12
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_fi4f2"]
+script = ExtResource("1_wvmpq")
+pos_init = 0
+ref_choix1 = 13
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_wvc45"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 1
+bouche = 1
+texte_replique = "Regarde !
+Les dahlias,
+ils massacrent
+les dahlias !"
+ref_choix1 = 14
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_plali"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 5
+bouche = 4
+texte_replique = "Les préférés de
+Dalida."
+ref_choix1 = 15
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_hnbx0"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 4
+texte_replique = "N’ont-ils que dédain
+pour notre grande
+Dali ?"
+ref_choix1 = 16
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_p8hfm"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 3
+bouche = 1
+texte_replique = "Dédé, je ne pense
+pas que les Dalecks
+connaissent Dalida…"
+ref_choix1 = 17
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_vgoy5"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 4
+bouche = 1
+texte_replique = "Mé, que viénnent-ils
+fairrre à la maison
+dé Dalida alors, …"
+ref_choix1 = 18
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_h416d"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 3
+bouche = 2
+texte_replique = "Dédé, les accents,
+en 2025, ..."
+ref_choix1 = 19
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_85dk7"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 4
+bouche = 1
+texte_replique = "Mé, notrrre Dali,
+son accent, c’est
+son chant, c’est 
+son cœur qu’elle
+nous a laissé."
+ref_choix1 = 20
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_17781"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 4
+texte_replique = "Vous, les yeunes,
+vous êtes, vous 
+êtes pirrres qué
+les Daleks !"
+ref_choix1 = 21
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_b8yfi"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 2
+bouche = 2
+texte_replique = "Paroles, paroles,
+et bingo Cnews
+en 30 secondes."
+ref_choix1 = 22
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_edoqt"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 5
+bouche = 1
+texte_replique = "Bref, et la police,
+que fait la police ?"
+ref_choix1 = 23
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_vj7ca"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 1
+texte_replique = "Parle plus bas,
+car on pourrait
+nous entendre."
+texte_choix1 = "Refuser de se taire et se redresser !"
+ref_choix1 = 34
+texte_choix2 = "Sortir son smartphone."
+ref_choix2 = 41
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_je83d"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 3
+bouche = 2
+texte_replique = "Attends Dédé, je
+crois entendre déjà
+comme un cœur
+qui bat, sous le métal."
+ref_choix1 = 25
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_788co"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 1
+bouche = 2
+texte_replique = "Les Daleks à 	Paris,
+ce n’est pas un
+hasard !"
+ref_choix1 = 26
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_uajdi"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 1
+texte_replique = "Mais,…
+Presse 
+ce bouton !"
+ref_choix1 = 27
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_7ciiy"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 3
+bouche = 2
+texte_replique = "En effet, qui sont
+les ennemis des
+Daleks, Dédé?
+Qui ?"
+ref_choix1 = 28
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_5xrrr"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 4
+bouche = 2
+texte_replique = "Le Docteur, certes,
+mais surtout les
+Anglais !"
+ref_choix1 = 29
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_dqjem"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 1
+bouche = 3
+texte_replique = "Et si leurs ennemis
+sont les Anglais,
+nous devons les
+aider !"
+ref_choix1 = 30
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_jixw8"]
+script = ExtResource("1_wvmpq")
+perso = 1
+regard = 6
+bouche = 4
+texte_replique = "Mais, comment
+peut-on être si
+insolent de
+certitude ?"
+ref_choix1 = 31
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_2rk8u"]
+script = ExtResource("1_wvmpq")
+perso = 4
+pos_init = 7
+texte_replique = "Adieu Monsieur,
+tout est fini."
+ref_choix1 = 32
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_ooy5u"]
+script = ExtResource("1_wvmpq")
+perso = 4
+pos_init = 7
+bruitage = 4
+texte_replique = "Exterminate !"
+ref_choix1 = 33
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_iw220"]
+script = ExtResource("1_wvmpq")
+pos_init = 0
+ref_choix1 = 0
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_cabev"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 1
+bouche = 2
+texte_replique = "Moi qui ai tout
+choisi dans ma
+vie, je veux choisir
+ma mort aussi !"
+ref_choix1 = 35
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_ae6j7"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 3
+bouche = 4
+texte_replique = "Moi, moi, moi."
+ref_choix1 = 36
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_8ys11"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 1
+texte_replique = "Je comprends mieux
+pourquoi tu n’as pas
+voulu rejoindre la
+CGT gardien."
+ref_choix1 = 37
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_8247b"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 2
+bouche = 1
+texte_replique = "La CGT gredin, oui !
+Moi, je…"
+ref_choix1 = 38
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_of0eg"]
+script = ExtResource("1_wvmpq")
+perso = 4
+pos_init = 7
+texte_replique = "Adieu Monsieur,
+tout est fini.
+"
+ref_choix1 = 39
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_6kk4y"]
+script = ExtResource("1_wvmpq")
+perso = 4
+pos_init = 7
+bruitage = 4
+texte_replique = "Exterminate !"
+ref_choix1 = 40
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_gfia4"]
+script = ExtResource("1_wvmpq")
+pos_init = 0
+ref_choix1 = 0
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_gbh1l"]
+script = ExtResource("1_wvmpq")
+perso = 3
+texte_replique = "'...day after day
+life slips away,
+Monday it's just
+another morning,…’"
+ref_choix1 = 42
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_wr84u"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 5
+bouche = 1
+texte_replique = "P... de traduction
+automatique de m…
+(Swip)"
+ref_choix1 = 43
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_s5lef"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 5
+bouche = 2
+texte_replique = "Ah, le Président !"
+ref_choix1 = 44
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_0ixjj"]
+script = ExtResource("1_wvmpq")
+perso = 3
+texte_replique = "'… et c’est le cœur
+lourd de ne pouvoir
+vous rejoindre dans
+la lutte que,'"
+ref_choix1 = 45
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_qlekf"]
+script = ExtResource("1_wvmpq")
+perso = 3
+texte_replique = "'tout le personnel
+diplomatique de
+Canberra et moi-même,
+nous vous encourageons
+à résister à l’envahisseur.'"
+ref_choix1 = 46
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_kdocn"]
+script = ExtResource("1_wvmpq")
+perso = 3
+texte_replique = "'Vive la République
+et vive la…’"
+ref_choix1 = 47
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_3gsw1"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 5
+bouche = 1
+texte_replique = "Il est bien bronzé
+dis donc, le
+Président."
+ref_choix1 = 48
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_5w6hs"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 3
+texte_replique = "Mais, il a pris un
+coup de vieux,
+non ?"
+ref_choix1 = 49
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_ntabp"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 5
+regard = 4
+bouche = 1
+texte_replique = "C’est tout ce que
+tu retiens, Dédé ?
+l’invasion est
+générale !"
+ref_choix1 = 50
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_5413b"]
+script = ExtResource("1_wvmpq")
+perso = 2
+regard = 3
+bouche = 4
+texte_replique = "La police ne viendra
+pas. Il faut fuir !"
+ref_choix1 = 51
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_ca6mo"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 1
+texte_replique = "J’suis vieux mais
+pas sénile, Alex.
+J’ai compris, hein."
+ref_choix1 = 52
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_5g8hj"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 2
+texte_replique = "Mais, tu sais, le
+seul paradis pour
+moi, ce n’est que
+ce jardin sous la
+pluie."
+ref_choix1 = 53
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_2omno"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 6
+regard = 2
+bouche = 2
+texte_replique = "Salma ya salama,
+je te salue ya
+salama, et, je
+reste m’occuper
+des dahlias."
+texte_choix1 = "Fuir par la porte de service."
+ref_choix1 = 54
+texte_choix2 = "Rester avec Dédé."
+ref_choix2 = 61
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_e3ckn"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+texte_replique = "Et puis sont venus les jours de brume,
+avec des bruits étranges et des pleurs."
+ref_choix1 = 55
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_n1xw5"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+texte_replique = "Combien j'ai passé de nuits sans lune,
+à chercher des rimes dans mon cœur,
+tout comme au temps des fleurs
+où l'on vivait sans peur."
+ref_choix1 = 56
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_u2vw7"]
+script = ExtResource("1_wvmpq")
+pos_init = 0
+ref_choix1 = 57
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_mxaq4"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 2
+ref_choix1 = 58
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_sate3"]
+script = ExtResource("1_wvmpq")
+perso = 4
+pos_init = 3
+ref_choix1 = 59
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_viic3"]
+script = ExtResource("1_wvmpq")
+pos_init = 0
+ref_choix1 = 60
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_t33ml"]
+script = ExtResource("1_wvmpq")
+pos_init = 0
+ref_choix1 = 0
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_3ym7e"]
+script = ExtResource("1_wvmpq")
+perso = 2
+regard = 1
+texte_replique = "Attends… 
+laisse-moi te regarder…
+Mais… 
+mais tu pleures Dédé ?"
+ref_choix1 = 62
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_e6x3r"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 1
+regard = 1
+texte_replique = "Écoute, écoute…
+Alain s'est mis à la guitare."
+ref_choix1 = 63
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_g6sfq"]
+script = ExtResource("1_wvmpq")
+perso = 2
+pos_init = 1
+texte_replique = "Attends Dédé…
+Attends, Dali est là aussi."
+ref_choix1 = 64
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_6qkg0"]
+script = ExtResource("1_wvmpq")
+perso = 1
+pos_init = 1
+ref_choix1 = 65
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_kwq27"]
+script = ExtResource("1_wvmpq")
+perso = 5
+pos_init = 3
+ref_choix1 = 66
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_sp4gk"]
+script = ExtResource("1_wvmpq")
+pos_init = 0
+ref_choix1 = 67
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[sub_resource type="Resource" id="Resource_w8tlb"]
+script = ExtResource("1_wvmpq")
+pos_init = 0
+ref_choix1 = 0
+metadata/_custom_type_script = "uid://bimc271r8deas"
+
+[resource]
+script = ExtResource("2_pe7b2")
+dialogue = Array[ExtResource("1_wvmpq")]([SubResource("Resource_wvmpq"), SubResource("Resource_pe7b2"), SubResource("Resource_s8e6h"), SubResource("Resource_x1vdh"), SubResource("Resource_fq7sx"), SubResource("Resource_3hv4c"), SubResource("Resource_4drik"), SubResource("Resource_7bhg8"), SubResource("Resource_glgtf"), SubResource("Resource_1d1bo"), SubResource("Resource_wvyob"), SubResource("Resource_5pthd"), SubResource("Resource_fi4f2"), SubResource("Resource_wvc45"), SubResource("Resource_plali"), SubResource("Resource_hnbx0"), SubResource("Resource_p8hfm"), SubResource("Resource_vgoy5"), SubResource("Resource_h416d"), SubResource("Resource_85dk7"), SubResource("Resource_17781"), SubResource("Resource_b8yfi"), SubResource("Resource_edoqt"), SubResource("Resource_vj7ca"), SubResource("Resource_je83d"), SubResource("Resource_788co"), SubResource("Resource_uajdi"), SubResource("Resource_7ciiy"), SubResource("Resource_5xrrr"), SubResource("Resource_dqjem"), SubResource("Resource_jixw8"), SubResource("Resource_2rk8u"), SubResource("Resource_ooy5u"), SubResource("Resource_iw220"), SubResource("Resource_cabev"), SubResource("Resource_ae6j7"), SubResource("Resource_8ys11"), SubResource("Resource_8247b"), SubResource("Resource_of0eg"), SubResource("Resource_6kk4y"), SubResource("Resource_gfia4"), SubResource("Resource_gbh1l"), SubResource("Resource_wr84u"), SubResource("Resource_s5lef"), SubResource("Resource_0ixjj"), SubResource("Resource_qlekf"), SubResource("Resource_kdocn"), SubResource("Resource_3gsw1"), SubResource("Resource_5w6hs"), SubResource("Resource_ntabp"), SubResource("Resource_5413b"), SubResource("Resource_ca6mo"), SubResource("Resource_5g8hj"), SubResource("Resource_2omno"), SubResource("Resource_e3ckn"), SubResource("Resource_n1xw5"), SubResource("Resource_u2vw7"), SubResource("Resource_mxaq4"), SubResource("Resource_sate3"), SubResource("Resource_viic3"), SubResource("Resource_t33ml"), SubResource("Resource_3ym7e"), SubResource("Resource_e6x3r"), SubResource("Resource_g6sfq"), SubResource("Resource_6qkg0"), SubResource("Resource_kwq27"), SubResource("Resource_sp4gk"), SubResource("Resource_w8tlb")])
+metadata/_custom_type_script = "uid://d1am6ynsb3nqp"
