@@ -92,6 +92,7 @@ size_flags_vertical = 8
 unique_name_in_owner = true
 layout_mode = 2
 theme_type_variation = &"BullesPerso"
+theme_override_font_sizes/font_size = 16
 text = "Fait pour la Partim 500-10
 Thème: Dédale ... détourné
 Les belles répliques sont
@@ -99,8 +100,9 @@ de Dalida et ses paroliers.
 Les autres répliques...
 Musique: JS Bach BWV997
 mutopiaproject.org - CC0
-Récit, sprites, code: Seb46
-Seb46@2025 - CC BY-NC"
+Récit, sprites: Seb46 - CC BY
+Code: Seb46 - MIT
+Seb46@2025 "
 
 [node name="AfficherDetails" type="Button" parent="VBoxContainer/HBoxContainer/Credits"]
 layout_mode = 2
