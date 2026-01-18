@@ -17,6 +17,6 @@ histoire, sprites : CC BY 4.0
 
 #### Credits
 
-* Fait sous Godot 4.5.1, Gimp, Krita, LibreOffice, Audacity
+* Fait sous Godot 4.5 puis 4.6, Gimp, Krita, LibreOffice, Audacity
 * Bruitages adaptés de [LaSonothèque](https://lasonotheque.org/apropos.html) of Joseph Sardin (CC0)
 * Musique : Lute Suite BWV 997: 3. Sarabande, .mid sur [mutopiaproject.org](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=52) (CC0) 
